@@ -3,6 +3,10 @@
     --background-color: #EAEDF0;
     --main-font-family: "Helvetica", "Arial", sans-serif;
     --font-size: 16px;
+
+    --section-background-color: #F6F7F8;
+    --section-border: 1px solid #D6D9DC;
+    --section-border-radius: 3px;
 }
 * {
     margin: 0;
@@ -24,9 +28,9 @@ body {
 
 .speaker-form-header {
     text-align: center;
-    background-color: #F6F7F8;
-    border: 1px solid #D6D9DC;
-    border-radius: 3px;
+    background-color: var(--section-background-color);
+    border: var(--section-border);
+    border-radius: var(--section-border-radius);
 
     width: 80%;
     margin: 4rem 0;
