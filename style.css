@@ -50,3 +50,21 @@ body {
     padding: 3rem;
     margin: 0 0 3rem 0;
 }
+
+.form-row {
+    flex-direction: row;
+    align-items: flex-start; /* To avoid stretching */
+    margin-bottom: 2rem;
+}
+
+.form-row input[type='text'] {
+    width: 15.5rem;
+    height: initial;
+}
+
+.form-row label {
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
+}
